@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Encode+Sans:wght@300;700&display=swap');
 
 * {
     margin: 0;
@@ -6,34 +6,58 @@
     border: none;
 }
 
-body {
-    background-color: black;
-}
-
 header {
-    height: 200px;
+    height: 100px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(30, 30, 30);
 }
 
-#coffee-logo {
-    height: inherit;
-    flex: 1;
-    justify-content: left;
-
-
-    /* border: 5px solid red; */
-}
-
-#coffee-logo img {
-    height: 90%;
+header > a {
+    text-decoration: none;
 }
 
 h1 {
-    flex: 10;
-    color: #fff;
-    align-self:flex-end;
+    color: #fafafa;
     font-size: 90px;
     font-family: Abel, sans-serif;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
 
-    /* border: 5px solid blue; */
+nav {
+    font-family: 'Encode Sans', sans-serif;
+    height: 100px;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    letter-spacing: 3px;
+    line-height: 40px;
+    height: inherit;
+}
+
+#menu a {
+    color: #fafafa;
+    text-decoration: none;
+    padding: 20px;
+    border-left: 2px solid #fafafa;
+}
+
+#menu li {
+    list-style-type: none;
+}
+
+#menu a:hover {
+    color:rgb(30, 30, 30);
+    background-color: #fafafa;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#hero-image-outer {
+    border: 5px solid red;
+    height: 600px;
 }

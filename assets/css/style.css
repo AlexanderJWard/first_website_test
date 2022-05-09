@@ -6,6 +6,8 @@
     border: none;
 }
 
+/* heading */
+
 header {
     height: 100px;
     display: flex;
@@ -25,6 +27,8 @@ h1 {
     padding-left: 20px;
     text-transform: uppercase;
 }
+
+/* navigation links */
 
 nav {
     font-family: 'Encode Sans', sans-serif;
@@ -57,7 +61,71 @@ nav {
     letter-spacing: 2px;
 }
 
+/* hero image */
+
 #hero-image-outer {
     border: 5px solid red;
     height: 600px;
+}
+
+/* for medium screen sizes from 950px wide and down */
+
+@media screen and (max-width:950px) {
+    header {
+        flex-direction: column;
+        height: 150px;
+        justify-content: flex-start; 
+    }
+
+    h1 {
+        font-size: 60px;
+        padding: 0;
+    }
+
+    #menu {
+        height: 50px;
+    }
+
+    #menu a {
+        padding: 20px 40px;
+    }
+
+    #find-us-nav {
+        border-right: 2px solid #fafafa;
+    }
+
+    nav {
+        margin-top: 5px;
+    }
+}
+
+/* for small screen sizes from 500px wide and down */
+
+@media screen and (max-width:500px) {
+    header {
+        flex-direction: column;
+        height: 150px;
+        justify-content: flex-start; 
+    }
+
+    h1 {
+        font-size: 60px;
+        padding: 0;
+    }
+
+    #menu {
+        height: 50px;
+    }
+
+    #menu a {
+        padding: 15px;
+    }
+
+    #find-us-nav {
+        border-right: 2px solid #fafafa;
+    }
+
+    nav {
+        margin-top: 5px;
+    }
 }

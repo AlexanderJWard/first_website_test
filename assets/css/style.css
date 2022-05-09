@@ -1,20 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
+body {
+    background-color: black;
+}
+
 header {
     height: 200px;
-    background-color: black;
+    display: flex;
 }
 
 #coffee-logo {
     height: inherit;
-    display: flex;
+    flex: 1;
     justify-content: left;
+
+
+    /* border: 5px solid red; */
 }
 
 #coffee-logo img {
     height: 90%;
+}
+
+h1 {
+    flex: 10;
+    color: #fff;
+    align-self:flex-end;
+    font-size: 90px;
+    font-family: Abel, sans-serif;
+
+    /* border: 5px solid blue; */
 }

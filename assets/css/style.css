@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+header {
+    height: 200px;
+    background-color: black;
+}
+
+#coffee-logo {
+    height: inherit;
+    display: flex;
+    justify-content: left;
+}
+
+#coffee-logo img {
+    height: 90%;
+}

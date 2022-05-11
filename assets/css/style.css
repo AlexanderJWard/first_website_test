@@ -251,7 +251,7 @@ nav {
 
     #cover-text-box1 {
         background-color: rgba(250, 250, 250, 0.7);
-        border: 6px solid rgba(30, 30, 30);
+        border: 4px solid rgba(30, 30, 30);
         color: rgba(30, 30, 30, 0.9);
         font-size: 15px;
         height: 70px;
@@ -267,7 +267,7 @@ nav {
     
     #cover-text-box2 {
         background-color: rgba(30, 30, 30, 0.7);
-        border: 5px solid #fafafa;
+        border: 3px solid #fafafa;
         color: #fafafa;
         font-size: 20px;
         height: 30px;

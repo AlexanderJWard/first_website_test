@@ -70,7 +70,7 @@ nav {
 /* hero image */
 
 #hero-image-outer {
-    height: 600px;
+    height: 500px;
     width: 100%;
 }
 
@@ -79,7 +79,7 @@ nav {
 #hero-image {
     background: url(../images/hero-image.jpg) no-repeat center center / cover;
     height: inherit;
-    width: inherit;
+    width: 100%;
     overflow: hidden;
 }
 
@@ -87,8 +87,6 @@ nav {
 
 #cover-text {
     position: relative;
-    height: 10px;
-    border: 10px solid blue;
 }
 
 #cover-text div {
@@ -125,6 +123,12 @@ nav {
     border-radius: 5px 50px 20px 40px;
 }
 
+/* coffee shop ethos */
+
+#coffee-ethos {
+    height: 500px;
+    width: 100%;
+}
 
 /* for medium screen sizes from 950px wide and down */
 
@@ -196,6 +200,7 @@ nav {
         left: 100px;
         border-radius: 5px 50px 20px 40px;
     }
+
 }
 
 /* for small screen sizes from 650px wide and down */
@@ -244,7 +249,7 @@ nav {
     }
 
     #hero-image-outer {
-        height: 500px;
+        height: 400px;
     }
 
     /* cover text */
@@ -256,7 +261,7 @@ nav {
         font-size: 15px;
         height: 70px;
         width: 190px;
-        bottom: 385px;
+        bottom: 285px;
         left: 40px;
         border-radius: 20px 40px 5px 50px;
     }
@@ -272,7 +277,7 @@ nav {
         font-size: 20px;
         height: 30px;
         width: 210px;
-        bottom: 340px;
+        bottom: 240px;
         left: 70px;
         border-radius: 5px 50px 20px 40px;
     }

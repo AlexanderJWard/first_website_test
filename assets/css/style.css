@@ -123,47 +123,62 @@ nav {
     border-radius: 5px 50px 20px 40px;
 }
 
-/* coffee shop ethos */
+/* coffee shop reasons */
 
 #reasons {
-    height: 800px;
     width: 100%;
 }
 
-#reasons h3 {
+#reasons > h3 {
     color: #fafafa;
     background-color: rgba(30, 30, 30);
     font-size: 40px;
     height: 50px;
-    width: 90%;
-    padding-left: 10%;
-    text-align: center;
-    text-decoration: underline solid #fafafa;
-    border: 1px solid red;
+    width: 80%;
+    padding: 20px 0 20px 20%;
+    text-align: left;
 }
 
 #reasons-box1 {
-    height: 350px;
     width: inherit;
     display: flex;
-    /* align-items: flex-start; */
-    justify-content: flex-end;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
     background-color: rgba(30, 30, 30);
 }
 
-#reasons-box1 ul {
+#reasons-box1-image {
+    margin-bottom: 50px;
+}
+
+#reasons-box1-text {
+    flex-basis: 62%;
+    align-self: center;
+    margin-bottom: 50px;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.reasons-box1-heading {
     color: #fafafa;
     font-family: 'Encode Sans', sans-serif;
     font-size: 20px;
-    border: 1px solid red;
-    align-self: center;
 }
 
-#reasons-box1 img {
-    border: 1px solid red;
-    height: 300px;
-    width: 300px;
-    padding-right: 20%;
+.reasons-box1-heading p {
+    padding-top: 10px;
+}
+
+.reasons-box1-heading h3 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.reasons-box1-heading hr {
+    border: 1px solid #fafafa;
 }
 
 #reasons-box2 {
@@ -241,6 +256,26 @@ nav {
         bottom: 350px;
         left: 100px;
         border-radius: 5px 50px 20px 40px;
+    }
+
+    /* coffee shop reasons */
+
+    .reasons-right-align {
+        text-align: right;
+    }
+
+    #reasons > h3 {
+        width: 100%;
+        padding: 20px 0 20px 0;
+        text-align: center;
+    }
+
+    #reasons-box1 {
+        flex-direction: column;
+    }
+
+    #reasons-box1-text {
+        margin-right: 5%;
     }
 
 }

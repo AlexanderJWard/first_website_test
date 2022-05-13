@@ -413,16 +413,16 @@ nav {
         flex-direction: column;
     }
 
-    #reasons-box1-text {
-        margin-right: 5%;
-    }
-
     #reasons-box2 {
         flex-direction: column-reverse;
     }
 
-    #reasons-box2-text {
-        margin-left: 5%;
+    #reasons-box1, #reasons-box2 {
+        gap: 50px;
+    }
+
+    #reasons-box1-text, #reasons-box2-text {
+        margin: 0 5%;
     }
 }
 

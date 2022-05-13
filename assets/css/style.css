@@ -58,13 +58,15 @@ nav {
 .nav a {
     color: #fafafa;
     text-decoration: none;
-    padding: 20px;
-    margin: 5px;
+    padding: 20px 20px;
+    margin: 2px;
+    height: inherit;
     border: 2px solid rgb(30, 30, 30);
 }
 
 .nav li {
     list-style-type: none;
+    padding: 10px 5px;
 }
 
 .nav .active {
@@ -83,8 +85,16 @@ nav {
     letter-spacing: 3px;
 }
 
-.nav hr {
-    height: 60px;
+.nav-right {
+    border-right: 2px solid #fafafa;
+}
+
+.nav-middle {
+    border-right: 2px solid #fafafa;
+    border-left: 2px solid #fafafa;
+}
+
+.nav-left {
     border-left: 2px solid #fafafa;
 }
 
@@ -451,6 +461,10 @@ nav {
 
     .nav a {
         padding: 10px 5px;
+    }
+
+    .nav a:hover {
+        letter-spacing: 2px;
     }
 
     .nav hr {

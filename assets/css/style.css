@@ -360,12 +360,12 @@ nav {
     /* hero image */
 
     #hero-image-outer {
-        height: 600px;
+        height: 700px;
     }
 
     /* cover text */
 
-    #cover-text-box1 {
+    /* #cover-text-box1 {
         background-color: rgba(250, 250, 250, 0.7);
         border: 6px solid rgba(30, 30, 30);
         color: rgba(30, 30, 30, 0.9);
@@ -391,7 +391,7 @@ nav {
         bottom: 350px;
         left: 100px;
         border-radius: 5px 50px 20px 40px;
-    }
+    } */
 
     /* coffee shop reasons */
 
@@ -506,6 +506,16 @@ nav {
         bottom: 240px;
         left: 70px;
         border-radius: 5px 50px 20px 40px;
+    }
+
+    /* reasons */
+
+    #reasons-box1, #reasons-box2 {
+        gap: 50px;
+    }
+
+    #reasons-box1-text, #reasons-box2-text {
+        margin: 0 5%;
     }
 
 }

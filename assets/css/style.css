@@ -197,10 +197,27 @@ nav {
 }
 
 #reasons-box2 {
-    height: 400px;
-    width: inherit;
-    background-color: #fafafa;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
 }
+
+#reasons-box2-image-outer {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid red;
+}
+
+#reasons-box2-image {
+    width: 300px;
+    background: url(../images/coffee.png) no-repeat center center;
+    background-attachment: fixed;
+}
+
 
 /* for medium screen sizes from 950px wide and down */
 
